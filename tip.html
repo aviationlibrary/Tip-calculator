@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tip.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="form-border">
+            <div class="form-body">
+                <form  class="form-calculator">
+                    <h1 class="header">Tip calculator</h1>
+                    <div>
+                        <label for="amount">Amount: </label>
+                        <input class="amount" type="number" name="amount" placeholder="Enter amount...">
+                    </div>
+                    <div>
+                        <label for="tip">Tip: </label>
+                        <input class="interest" type="number" name="tip" placeholder="% of amount...">
+                    </div>
+                    <div>
+                        <label for="">Server: </label>
+                        <input class="servers" type="number" value="number" placeholder="Number of servers...">
+                    </div>
+                    <div>
+                        <input type="submit" value="Calculate tip" class="calculate">
+                    </div>
+                    <div>
+                        <h1 class="header">Tip result</h1>
+                        <label for="">Amount per server is :</label>
+                        <input class="result" type="number" value="number" disabled>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="tip.js"></script>
+</body>
+</html>
